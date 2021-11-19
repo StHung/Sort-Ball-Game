@@ -6,7 +6,8 @@ public class GameUIController : MonoBehaviour, IGameOver
 {
     [SerializeField] GameObject gameOverDiaLog;
     [SerializeField] Text levelText;
-
+    [SerializeField] Button reloadButton;
+    [SerializeField] Button backToMenuButon;
     private int currentLevel;
 
     private void Start()

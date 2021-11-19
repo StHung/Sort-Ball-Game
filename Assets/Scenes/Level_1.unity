@@ -130,38 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1718245933391943850, guid: 69b999602bc49224986c2dea7970303d, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718245933391943850, guid: 69b999602bc49224986c2dea7970303d, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: ed3270648963b5d438e1a185fb13bed4, type: 3}
-    - target: {fileID: 1718245933690485842, guid: 69b999602bc49224986c2dea7970303d, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718245934506560849, guid: 69b999602bc49224986c2dea7970303d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718245934506560849, guid: 69b999602bc49224986c2dea7970303d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718245934506560849, guid: 69b999602bc49224986c2dea7970303d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718245934506560850, guid: 69b999602bc49224986c2dea7970303d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718245934506560855, guid: 69b999602bc49224986c2dea7970303d, type: 3}
-      propertyPath: m_Color.a
-      value: 0.6745098
-      objectReference: {fileID: 0}
     - target: {fileID: 1718245934687421711, guid: 69b999602bc49224986c2dea7970303d, type: 3}
       propertyPath: m_Name
       value: GameUI_Canvas
@@ -546,30 +514,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9155410939401495207, guid: dc2ec3aab39e3e9429e7e40578c62317, type: 3}
   m_PrefabInstance: {fileID: 981919215}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1298277917 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1718245934506560850, guid: 69b999602bc49224986c2dea7970303d, type: 3}
-  m_PrefabInstance: {fileID: 173121483}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1298277922
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1298277917}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bfe487986c5d3cd49bf4940fd94e21ce, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1363938147
 GameObject:
   m_ObjectHideFlags: 0
