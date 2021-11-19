@@ -8,7 +8,7 @@ public class DataManager : MonoBehaviour
 
     public static DataManager Instance { get { return _instance; } }
 
-    private string CURRENT_LEVEL = "currentLevel";
+    private string CURRENT_LEVEL = "currentlevel";
 
     public int CurentLevel { get; set; }
 

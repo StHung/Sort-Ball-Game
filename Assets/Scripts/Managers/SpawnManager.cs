@@ -88,8 +88,8 @@ public class SpawnManager : MonoBehaviour
             while (tubes[i].ballStack.Count < stackSize)
             {
                 int randomBallColorIndexToSpawnBall = Random.Range(0, ballColors.Count);
- 
-                if (tubes[i].ballStack.Count == stackSize - 1)
+
+                if (tubes[i].ballStack.Count > 0 && tubes[i].ballStack.Count < stackSize - 2 )
                 {
                     if (tubes[i].ballStack.Peek().Ballcolor == ballColors[randomBallColorIndexToSpawnBall])
                         continue;
