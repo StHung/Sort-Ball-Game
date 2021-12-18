@@ -43,5 +43,14 @@ public class GameManager : MonoBehaviour, ITubeIsSortingCompleted, IGameOver
     public void OnGameOver()
     {
         EventManager.EmitEvent(EventName.On_Game_Over);
+        PlayWinEffect();
+        AudioManager.Instance.PlayGameWinSound();
+    }
+
+    private void PlayWinEffect()
+    {
+        ParticleSystem confettiVFX = Resources.Load<ParticleSystem>("Confetti_VFX");
+        Vector3 spawnPos = new Vector3(0, 7, 0);
+        Instantiate(confettiVFX, spawnPos, Quaternion.Euler(90,0,0));
     }
 }

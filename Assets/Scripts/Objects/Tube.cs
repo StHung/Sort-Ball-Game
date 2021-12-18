@@ -66,6 +66,7 @@ public class Tube : MonoBehaviour, ITubeIsSortingCompleted, IPointerDownHandler
                 Player.Ins.GrabBall(PopBall(), this);
             }
         }
+        AudioManager.Instance.PlayTouchSound();
     }
     private void PushBall(Ball ball)
     {
