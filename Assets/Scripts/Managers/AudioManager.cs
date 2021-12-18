@@ -38,6 +38,8 @@ public class AudioManager : MonoBehaviour
         {
             musics.Enqueue(item);
         }
+
+        StartCoroutine("PlayBGMusic");
     }
 
     IEnumerator PlayBGMusic()
@@ -46,6 +48,7 @@ public class AudioManager : MonoBehaviour
         {
             currentMusic = musics.Dequeue();
             musicAus.clip = currentMusic;
+            musicAus.Play();
             yield return new WaitForSeconds(musicAus.clip.length);
             musics.Enqueue(currentMusic);
         }
